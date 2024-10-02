@@ -2,4 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.top-glow {
+  box-shadow: 0 -26px 20px rgba(243, 186, 47, 0.3);
+}
