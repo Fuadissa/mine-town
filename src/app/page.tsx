@@ -1,21 +1,21 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import WebApp from "@twa-dev/sdk";
+// import { useEffect, useState } from "react";
+// import WebApp from "@twa-dev/sdk";
 
 // Define the interface for user data
-interface UserData {
-  id: number;
-  first_name: string;
-  last_name?: string;
-  username?: string;
-  language_code: string;
-  is_premium?: boolean;
-}
+// interface UserData {
+//   id: number;
+//   first_name: string;
+//   last_name?: string;
+//   username?: string;
+//   language_code: string;
+//   is_premium?: boolean;
+// }
 
 export default function Home() {
-  const [userData, setUserData] = useState<UserData | null>(null);
-  const [error, setError] = useState<string | null>(null);
+  // const [userData, setUserData] = useState<UserData | null>(null);
+  // const [error, setError] = useState<string | null>(null);
 
   // useEffect(() => {
   //   try {
