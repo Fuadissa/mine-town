@@ -39,7 +39,7 @@ export default function Home() {
 
   return (
     <main className="w-full bg-black text-white h-screen font-bold flex flex-col max-w-xl">
-      <div className="px-4 z-10  min-h-16 rounded-lg m-2 mt-4 flex justify-start items-center gap-4">
+      <div className="px-4 z-10  min-h-16 rounded-lg m-2 mt-2 flex justify-start items-center gap-4">
         <div className="h-[3.5rem] w-[3.5rem] bg-red-500 rounded-[1rem]"></div>
         <div className="flex flex-col items-center gap-0 py-4">
           <p className="text-[#a7a7a7]">Welcome</p>
