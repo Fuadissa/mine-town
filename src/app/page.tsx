@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <main className="w-full bg-black text-white h-screen font-bold flex flex-col max-w-xl">
       <div className="px-4 z-10  min-h-16 rounded-lg m-2 mt-4 flex justify-start items-center gap-6">
-        <div className="h-[4.5rem] w-[4.5rem] bg-red-500 rounded-[1.2rem]"></div>
+        <div className="h-[4rem] w-[4rem] bg-red-500 rounded-[1.2rem]"></div>
         <div className="flex flex-col items-center gap-0">
           <p className="text-[#a7a7a7]">Welcome</p>
           <p className="text-xl">Fuad Issa</p>
