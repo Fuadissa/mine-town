@@ -1,5 +1,11 @@
 "use client";
 
+import Image from "next/image";
+import Earth from "../public/earth.png";
+import Controller from "../public/controller.png";
+import Nft from "../public/Nft.jpg";
+import Testnet from "../public/Testnet.png";
+
 // import { useEffect, useState } from "react";
 // import WebApp from "@twa-dev/sdk";
 
@@ -48,7 +54,58 @@ export default function Home() {
       </div>
 
       <div className="flex-grow mt-4 bg-[#f3ba2f] rounded-t-[48px] relative top-glow z-0">
-        <div className="absolute top-[2px] left-0 right-0 bottom-0 bg-[#1d2025] rounded-t-[46px]"></div>
+        <div className="absolute top-[2px] left-0 right-0 bottom-0 bg-[#1d2025] rounded-t-[46px] justify-start items-center pb-4 pt-6 flex flex-col gap-4">
+          <h1 className="text-2xl">Reccommend Projects</h1>
+          <div className="w-full flex justify-start items-center overflow-x-scroll no-scrollbar gap-4 px-3">
+            <div className="min-h-[3rem] flex justify-start gap-2 pl-1 pr-7 items-center border-[1px] border-[#008000] rounded-3xl shrink-0">
+              <Image
+                src={Earth} // Relative path from the `public` directory
+                alt="Testnet"
+                className="mx-auto w-9 h-9 rounded-full bg-neutral-100"
+              />
+              {/* <div className="w-9 h-9 rounded-full bg-neutral-100"></div> */}
+              <p>General</p>
+            </div>
+            <div className="min-h-[3rem] flex justify-start gap-2 pl-1 pr-7 items-center border-[1px] border-[#800080] rounded-3xl shrink-0">
+              {/* #504f4f */}
+              <Image
+                src={Controller} // Relative path from the `public` directory
+                alt="Testnet"
+                className="mx-auto w-9 h-9 rounded-full bg-neutral-100"
+              />
+              {/* <div className="w-9 h-9 rounded-full bg-neutral-100"></div> */}
+              <p className="text-[#9a9b9c]">GameFi</p>
+            </div>
+            <div className="min-h-[3rem] flex justify-start gap-2 pl-1 pr-7 items-center border-[1px] border-[#FFA500] rounded-3xl shrink-0">
+              <Image
+                src={Nft} // Relative path from the `public` directory
+                alt="Testnet"
+                className="mx-auto w-9 h-9 rounded-full bg-neutral-100"
+              />
+              {/* <div className="w-9 h-9 rounded-full bg-neutral-100"></div> */}
+              <p>Nft's</p>
+            </div>
+            <div className="min-h-[3rem] flex justify-start gap-2 pl-1 pr-7 items-center border-[1px] border-[#343499] rounded-3xl shrink-0">
+              <Image
+                src={Testnet} // Relative path from the `public` directory
+                alt="Testnet"
+                className="mx-auto w-9 h-9 rounded-full bg-neutral-100"
+              />
+              {/* <div className="w-9 h-9 rounded-full bg-neutral-100"></div> */}
+              <p>Testnet</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 gap-3 w-full p-4">
+            <div className="h-[13rem] w-full rounded-[1rem] bg-gray-50"></div>
+            <div className="h-[13rem] w-full rounded-[1rem] bg-gray-50"></div>
+            <div className="h-[13rem] w-full rounded-[1rem] bg-gray-50"></div>
+            <div className="h-[13rem] w-full rounded-[1rem] bg-gray-50"></div>
+            {/* <div className="h-[13rem] w-full rounded-[1rem] bg-gray-50"></div>
+            <div className="h-[13rem] w-full rounded-[1rem] bg-gray-50"></div>
+            <div className="h-[15rem] w-full rounded-[1rem] bg-gray-50"></div>
+            <div className="h-[15rem] w-full rounded-[1rem] bg-gray-50"></div> */}
+          </div>
+        </div>
       </div>
       {/* {userData ? (
         <>
