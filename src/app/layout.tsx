@@ -5,7 +5,7 @@ import { FcHome } from "react-icons/fc";
 import Testnet from "../public/Testnet.png";
 import Meme from "../public/Meme-icon.png";
 import Coin from "../public/coin.png";
-import Wallet from "../public/wallet.png";
+import Save from "../public/save.png";
 
 import Image from "next/image";
 
@@ -65,11 +65,11 @@ export default function RootLayout({
 
           <div className="text-center text-[#85827d] w-1/5">
             <Image
-              src={Wallet} // Relative path from the `public` directory
+              src={Save} // Relative path from the `public` directory
               alt="Testnet"
               className="w-8 h-8 mx-auto"
             />
-            <p className="mt-1">Wallet</p>
+            <p className="mt-1">Pin</p>
           </div>
         </div>
       </body>
