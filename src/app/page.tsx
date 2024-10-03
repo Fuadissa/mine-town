@@ -51,17 +51,17 @@ export default function Home() {
   return (
     <main className="w-full bg-black text-white h-screen font-bold flex flex-col max-w-xl">
       <div className="px-4 z-10  min-h-16 rounded-lg m-2 mt-2 flex justify-start items-center gap-4">
-        <div className="h-[3.5rem] w-[3.5rem] bg-red-500 rounded-[1rem]"></div>
+        <div className="h-[3rem] w-[3rem] bg-red-500 rounded-[1rem]"></div>
         <div className="flex flex-col items-center gap-0 py-4">
           <p className="text-[#a7a7a7]">Welcome</p>
           <p className="text-lg">Fuad Issa</p>
         </div>
       </div>
 
-      <div className="flex-grow mt-4 bg-gradient-to-r from-[#ffc999] via-[#fb8c00] to-[#e65a00] rounded-t-[48px] relative top-glow z-0">
+      <div className="flex-grow mt-1 bg-gradient-to-r from-[#ffc999] via-[#fb8c00] to-[#e65a00] rounded-t-[48px] relative top-glow z-0">
         <div className="absolute top-[2px] left-0 right-0 bottom-0 bg-[#1d2025] rounded-t-[46px] justify-start items-center pb-4 pt-6 flex flex-col gap-4">
           <h1 className="text-2xl">Reccommend Projects</h1>
-          <div className="w-full flex justify-start items-center overflow-x-scroll no-scrollbar gap-4 px-3">
+          <div className="w-full flex justify-start items-center overflow-x-scroll no-scrollbar gap-3 px-3">
             <div className="min-h-[3rem] flex justify-start gap-2 pl-1 pr-7 items-center border-[1px] border-[#008000] rounded-3xl shrink-0">
               <Image
                 src={Earth} // Relative path from the `public` directory
@@ -100,7 +100,7 @@ export default function Home() {
               <p>Testnet</p>
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-x-3 gap-y-4 w-full p-4">
+          <div className="grid grid-cols-2 gap-x-3 gap-y-4 w-full p-4 pt-2">
             <div className="h-[14rem] w-full rounded-[1rem]  relative flex justify-center items-center">
               <div className="relative h-[80%] bg-[#3a3f46] w-full flex flex-col justify-center items-center rounded-[1rem]">
                 <div className="absolute top-[-1.3rem] h-[4rem] w-[4rem] bg-red-600 rounded-[1rem] shadow-[rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px]">
