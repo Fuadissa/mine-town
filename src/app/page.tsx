@@ -6,13 +6,10 @@ import Controller from "../public/controller.png";
 import Nft from "../public/Nft.jpg";
 import Testnet from "../public/Testnet.png";
 import { AiFillFire } from "react-icons/ai";
-import {
-  BiDownvote,
-  BiUpvote,
-  BiSolidUpvote,
-  BiSolidDownvote,
-} from "react-icons/bi";
-import { IoBookmarkSharp, IoBookmarkOutline } from "react-icons/io5";
+import { BiDownvote, BiSolidUpvote } from "react-icons/bi";
+import { IoBookmarkOutline } from "react-icons/io5";
+
+//IoBookmarkSharp BiSolidDownvote, BiUpvote,
 
 // import { useEffect, useState } from "react";
 // import WebApp from "@twa-dev/sdk";
