@@ -4,7 +4,6 @@ import Image from "next/image";
 import Earth from "../public/earth.png";
 import Controller from "../public/controller.png";
 import Nft from "../public/Nft.jpg";
-import Testnet from "../public/Testnet.png";
 import { AiFillFire } from "react-icons/ai";
 import { BiDownvote, BiSolidUpvote } from "react-icons/bi";
 import { IoBookmarkOutline } from "react-icons/io5";
