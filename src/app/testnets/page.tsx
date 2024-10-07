@@ -13,7 +13,13 @@ const Testnets = () => {
               className="h-[10rem] w-full rounded-[2rem] bg-gradient-to-r from-[#ffc999] via-[#fb8c00] to-[#e65a00] p-[0.25rem]"
               key={data}
             >
-              <div className="w-full bg-[#1d2025] h-full rounded-[1.6rem] flex flex-col justify-between items-center p-[0.4rem]">
+              <div
+                className="w-full h-full rounded-[1.6rem] flex flex-col justify-between items-center p-[0.4rem]"
+                style={{
+                  background:
+                    "linear-gradient(135deg, #1d2025, #3a3f46, #5d6678)",
+                }}
+              >
                 <div className="flex justify-start items-center w-full gap-2">
                   <div className="h-[3.2rem] w-[3.2rem] rounded-full ">
                     <Image

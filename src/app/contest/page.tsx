@@ -1,11 +1,11 @@
 import React from "react";
 
-const Meme = () => {
+const Contest = () => {
   return (
     <div className="flex justify-center items-center w-full bg-[#1d2025] p-4 flex-col gap-3">
       <div className="flex justify-center items-center">
         <h1 className="bg-gradient-rainbow bg-clip-text text-transparent animate-shimmer bg-[length:200%_200%] text-5xl">
-          Meme's
+          Contest
         </h1>
       </div>
       <h1 className="bg-gradient-rainbow bg-clip-text text-transparent animate-shimmer bg-[length:200%_200%] text-5xl">
@@ -15,4 +15,4 @@ const Meme = () => {
   );
 };
 
-export default Meme;
+export default Contest;

@@ -34,13 +34,13 @@ const Navbar = () => {
     {
       name: "Contest",
       image: Winner,
-      href: "/tokens",
+      href: "/contest",
       Icon: false,
     },
     {
-      name: "Saves",
+      name: "Saved",
       image: Save,
-      href: "/saves",
+      href: "/saved",
       Icon: false,
     },
   ];
